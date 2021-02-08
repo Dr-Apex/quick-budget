@@ -23,6 +23,7 @@ const Manage = () => {
       <div className="card">
         <div className="card-header">
           <input placeholder="Description" onChange={(e) => setDesc(e.target.value)} />
+          <input style={{"display" : "none"}} placeholder="Description" value={desc} />
         </div>
         <div className="card-body manage">
           <input
