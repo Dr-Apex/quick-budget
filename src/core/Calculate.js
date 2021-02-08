@@ -20,7 +20,7 @@ const Manage = () => {
   const values = [];
   for (var i = 0; i < count; i++) {
     values.push(
-      <div className="card">
+      <div className="card component">
         <div className="card-header">
           <input placeholder="Description" onChange={(e) => setDesc(e.target.value)} />
           <input style={{"display" : "none"}} placeholder="Description" value={desc} />
@@ -28,6 +28,7 @@ const Manage = () => {
         <div className="card-body manage">
           <input
             className="card-title"
+            type="number"
             placeholder="Amount"
             onChange={(e) => setAmt(e.target.value)}
           />
