@@ -51,7 +51,7 @@ const Manage = () => {
             <input
               className="card-text budget"
               type="number"
-              placeholder="Budget"
+              placeholder="Enter Budget"
               onChange={(e) => setBudget(e.target.value)}
             />
           </div>
